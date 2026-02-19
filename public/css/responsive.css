@@ -1,0 +1,288 @@
+/* Large Devices, Wide Screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    .features-content .title {
+        font-size: 18px;
+    }
+    .banner-content .title {
+        font-size: 60px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    .banner-content .title {
+        font-size: 45px;
+    }
+    .header-action > ul > li {
+        margin-left: 20px;
+    }
+    .menu-nav {
+        justify-content: space-between;
+    }
+    .mobile-nav-toggler {
+        display: flex !important;
+        color: var(--tg-heading-font-color);
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    /* Header & Menu */
+    .menu-nav {
+        justify-content: space-between;
+        padding: 15px 0;
+    }
+    .mobile-nav-toggler {
+        display: flex !important;
+        color: var(--tg-heading-font-color);
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    /* Mobile Menu Styles */
+    .mobile-menu {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 300px;
+        height: 100%;
+        background: #ffffff;
+        z-index: 9999;
+        transition: all 0.3s ease-out 0s;
+        overflow-y: auto;
+        padding: 40px 30px;
+        box-shadow: -5px 0 20px rgba(0,0,0,0.1);
+    }
+    .mobile-menu.open {
+        right: 0;
+    }
+    .menu-backdrop {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: 9998;
+        transition: all 0.3s ease-out 0s;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .menu-backdrop.active {
+        visibility: visible;
+        opacity: 1;
+    }
+    .close-btn {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+        color: var(--tg-heading-font-color);
+        font-size: 20px;
+    }
+    .mobile-menu .nav-logo {
+        margin-bottom: 35px;
+    }
+    .mobile-menu .navigation li {
+        display: block;
+        margin-bottom: 15px;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+        padding-bottom: 15px;
+    }
+    .mobile-menu .navigation li:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .mobile-menu .navigation li a {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--tg-heading-font-color);
+        text-transform: capitalize;
+        display: block;
+    }
+    .mobile-menu .social-links {
+        margin-top: 40px;
+    }
+    .mobile-menu .social-links ul {
+        display: flex;
+        gap: 15px;
+    }
+    .mobile-menu .social-links li a {
+        width: 40px;
+        height: 40px;
+        background: var(--tg-theme-primary);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    /* Banner */
+    .banner-content .title {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    .banner-content .banner-caption {
+        margin: 0 0 10px;
+        font-size: 13px;
+    }
+    .banner-content .btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+    .tg-banner-img {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    
+    .tg-features-inner,
+    .tg-supplement-inner,
+    .tg-service-inner,
+    .tg-shop-wrapper {
+        padding: 0 0 !important;
+    }
+
+    /* Testimonials Stacking */
+    .tg-testimonial-item {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px !important;
+    }
+    .tg-testimonial-thumb {
+        margin-right: 0 !important;
+        margin-bottom: 20px;
+    }
+    
+    /* Sections Padding */
+    .brand-area, 
+    .features-bg, 
+    .features-bg-two, 
+    .testimonial-bg-two, 
+    .footer-top-wrap-two, 
+    .footer-bg,
+    .tg-video-area {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    
+    .tg-supplement-area {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .pricing-item-two {
+        padding: 40px 20px;
+    }
+    .faq-wrapper-two {
+        padding: 30px 20px;
+    }
+    
+    /* Spacing Helpers Override */
+    .mt-60 { margin-top: 30px !important; }
+    .mb-60 { margin-bottom: 30px !important; }
+    .mb-25 { margin-bottom: 15px !important; }
+    
+    /* Typography */
+    h1 { font-size: 30px; }
+    h2, .title { font-size: 26px !important; }
+    h3 { font-size: 22px; }
+    h4 { font-size: 18px; }
+    p { font-size: 16px !important; }
+    
+    /* Benefits/Features Section */
+    .tg-service-item {
+        padding: 45px 24px 40px;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto 20px;
+        box-shadow: 0px 0px 13.92px 2.08px rgba(46, 89, 8, 0.12);
+        border-radius: 10px;
+        border: none;
+    }
+    .tg-service-item .icon {
+        margin: 0 auto 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tg-service-item .tg-services-count {
+        left: 20px;
+        top: 20px;
+    }
+    
+    /* Footer */
+    .footer-widget {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .footer-content p, .footer-contact-info, .footer-social {
+        text-align: center;
+        justify-content: center;
+    }
+    .copyright-text, .copyright-menu ul {
+        text-align: center;
+        justify-content: center;
+    }
+    .copyright-menu ul {
+        margin-top: 10px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 575px) {
+    .banner-content .title {
+        font-size: 28px !important;
+    }
+    .newsletter-wrap-two {
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+    .newsletter-wrap-two .title {
+        font-size: 22px !important;
+        text-align: center;
+    }
+    .newsletter-form {
+        width: 100%;
+    }
+    .newsletter-form input {
+        padding: 15px;
+        height: 50px;
+    }
+    .newsletter-form button {
+        position: relative;
+        right: auto;
+        top: auto;
+        transform: none;
+        width: 100%;
+        margin-top: 15px;
+        background: var(--tg-heading-font-color);
+        color: var(--tg-white);
+        padding: 12px;
+        border-radius: 5px;
+    }
+}
