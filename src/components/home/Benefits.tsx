@@ -8,7 +8,7 @@ const Benefits = () => {
                     <div className="row justify-content-center ">
                         <div className="col-lg-8">
                             <div className="tg-section-title text-center mb-5">
-                                <span className="sub-title">Speed Features</span>
+                                <span className="sub-title">Nutradyne Features</span>
                                 <h2 className="title">Supplement Features</h2>
                             </div>
                         </div>

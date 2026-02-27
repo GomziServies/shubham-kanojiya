@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Header = () => {
     const [isSticky, setIsSticky] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const location = useLocation();
+    const navigate = useNavigate();
 
     // Prevent body scroll when mobile menu is open
     useEffect(() => {
@@ -33,12 +34,48 @@ const Header = () => {
         };
     }, []);
 
+    // Jyare navigate thi home aaviye, pachhi ProductShowcase par scroll karo
+    useEffect(() => {
+        if (location.pathname === '/' && location.state?.scrollToProduct) {
+            const section = document.getElementById('product-showcase');
+            if (section) {
+                setTimeout(() => {
+                    section.scrollIntoView({ behavior: 'smooth' });
+                }, 100); // slight delay so page render thay
+            }
+            // state saaf karo
+            window.history.replaceState({}, document.title);
+        }
+    }, [location]);
+
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
 
     const closeMobileMenu = () => {
         setIsMobileMenuOpen(false);
+    };
+
+    // Product link click handler
+    const handleProductClick = (e: React.MouseEvent) => {
+        e.preventDefault();
+
+        if (location.pathname === '/') {
+            // Already home page par chhe to direct scroll karo
+            const section = document.getElementById('product-showcase');
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        } else {
+            // Bija page par chhe to home par navigate karo with state
+            navigate('/', { state: { scrollToProduct: true } });
+        }
+    };
+
+    // Mobile Product link click handler
+    const handleMobileProductClick = (e: React.MouseEvent) => {
+        closeMobileMenu();
+        handleProductClick(e);
     };
 
     // Helper to determine if link is active
@@ -60,15 +97,15 @@ const Header = () => {
                                 </div>
                                 <div className="menu-wrap">
                                     <nav className="menu-nav">
-                                        <div className="logo">
+                                        <div className="logo h-16"> 
                                             <Link to="/">
-                                                <img src="/images/logo-01.png" alt="Logo" />
+                                                <img src="/images/logo-01.png" alt="Logo" className='h-full' />
                                             </Link>
                                         </div>
                                         <div className="navbar-wrap main-menu d-none d-md-flex">
                                             <ul className="navigation">
                                                 <li className={isActive('/')}><Link to="/" className="section-link">Home</Link></li>
-                                                <li className={isActive('/products')}><Link to="/products" className="section-link">Product</Link></li>
+                                                <li><a href="#product-showcase" className="section-link" onClick={handleProductClick}>Product</a></li>
                                                 <li className={isActive('/about')}><Link to="/about" className="section-link">About Us</Link></li>
                                                 <li className={isActive('/contact')}><Link to="/contact" className="section-link">Contact Us</Link></li>
                                             </ul>
@@ -95,7 +132,7 @@ const Header = () => {
                     <div className="menu-outer">
                         <ul className="navigation">
                             <li className={isActive('/')}><Link to="/" onClick={closeMobileMenu}>Home</Link></li>
-                            <li className={isActive('/products')}><Link to="/products" onClick={closeMobileMenu}>Product</Link></li>
+                            <li><a href="#product-showcase" onClick={handleMobileProductClick}>Product</a></li>
                             <li className={isActive('/about')}><Link to="/about" onClick={closeMobileMenu}>About Us</Link></li>
                             <li className={isActive('/contact')}><Link to="/contact" onClick={closeMobileMenu}>Contact Us</Link></li>
                         </ul>
@@ -104,7 +141,7 @@ const Header = () => {
                         <ul className="clearfix">
                             <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                            <li><a href="https://api.whatsapp.com/send?phone=+919833897063&text=Hello, I want to know more about your service."><i className="fab fa-whatsapp"></i></a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=+919511424676&text=Hello, I want to know more about your service."><i className="fab fa-whatsapp"></i></a></li>
                         </ul>
                     </div>
                 </nav>

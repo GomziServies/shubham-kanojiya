@@ -27,7 +27,7 @@ const Testimonials = () => {
                                             <i className="fas fa-star"></i>
                                         </div>
                                         <h2 className="title">Rajesh Sharma</h2>
-                                        <p>Speed delivers top-notch supplements! Noticed great muscle gain & energy boost. Fast delivery & authentic product .</p>
+                                        <p>Nutradyne delivers top-notch supplements! Noticed great muscle gain & energy boost. Fast delivery & authentic product .</p>
                                     </div>
                                 </div>
                             </div>

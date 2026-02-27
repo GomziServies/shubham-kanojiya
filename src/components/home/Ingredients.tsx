@@ -9,7 +9,7 @@ const Ingredients = () => {
                     <div className="row align-items-center justify-content-center">
                         <div className="col-lg-6 col-md-8 order-0 order-lg-2">
                             <div className="tg-supplement-img text-end wow fadeInRight" data-wow-delay=".2s">
-                                <img src="/images/supplement_img.png" alt="" />
+                                <img src="/images/supplement_img.webp" alt="" />
                             </div>
                             <div className="tg-supplement-shape">
                                 <img src="/images/supplement_shape02.png" alt="" className="rotateme" />

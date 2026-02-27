@@ -106,7 +106,7 @@ const ProductDetail = () => {
                                 </div>
                                 <p>{product.shortDescription}</p>
                                 <div className="inner-shop-perched-info">
-                                    <a href={`https://api.whatsapp.com/send?phone=+919833897063&text=Hello, I want to know more about ${product.name}.`} className="cart-btn">Inquiry Now</a>
+                                    <a href={`https://api.whatsapp.com/send?phone=+919511424676&text=Hello, I want to know more about ${product.name}.`} className="cart-btn">Inquiry Now</a>
                                 </div>
                             </div>
                         </div>

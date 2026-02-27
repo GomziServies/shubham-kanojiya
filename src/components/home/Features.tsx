@@ -11,7 +11,7 @@ const Features = () => {
                                 </div>
                                 <div className="tg-features-content">
                                     <h4 className="title">Calorie Increase</h4>
-                                    <p>Boost your muscle gains with Speed's calorie-increasing supplements for optimal growth.</p>
+                                    <p>Boost your muscle gains with Nutradyne's calorie-increasing supplements for optimal growth.</p>
                                 </div>
                             </div>
                         </div>
@@ -22,7 +22,7 @@ const Features = () => {
                                 </div>
                                 <div className="tg-features-content">
                                     <h4 className="title">Typical Routine</h4>
-                                    <p>Follow a balanced routine with Speed to enhance strength, muscle growth, and recovery.</p>
+                                    <p>Follow a balanced routine with Nutradyne to enhance strength, muscle growth, and recovery.</p>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ const Features = () => {
                                 </div>
                                 <div className="tg-features-content">
                                     <h4 className="title">Energy Grow Up</h4>
-                                    <p>Fuel your workouts and boost endurance with Speed's energy-boosting supplements.</p>
+                                    <p>Fuel your workouts and boost endurance with Nutradyne's energy-boosting supplements.</p>
                                 </div>
                             </div>
                         </div>

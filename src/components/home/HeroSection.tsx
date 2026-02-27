@@ -10,11 +10,11 @@ const HeroSection = () => {
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-10">
                         <div className="tg-banner-content">
-                            <h4 className="sub-title wow fadeInUp" data-wow-delay=".2s">Increased Energy!</h4>
-                            <h2 className="title wow fadeInUp" data-wow-delay=".4s">Speed. Strength. Supremacy.</h2>
-                            <p className="wow fadeInUp" data-wow-delay=".6s">Speed - Premium protein supplements for muscle growth, strength, and peak performance!.</p>
+                            <h4 className="sub-title wow fadeInUp" data-wow-delay=".2s">Trusted in Health & Wellness!</h4>
+                            <h2 className="title wow fadeInUp" data-wow-delay=".4s">Nutradyne Healthcare</h2>
+                            <p className="wow fadeInUp" data-wow-delay=".6s">Nutradyne Healthcare — Premium nutrition supplements crafted for your health, vitality, and peak performance.</p>
                             <div className="tg-banner-btn wow fadeInUp" data-wow-delay=".8s">
-                                <a href="#supplement" className="tg-btn">Know More</a>
+                                <a href="#product-showcase" className="tg-btn">Know More</a>
                             </div>
                         </div>
                     </div>

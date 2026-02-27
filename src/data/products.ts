@@ -16,177 +16,259 @@ export const products: Product[] = [
     {
         id: 'whey-protein-mawarabdi-2kg',
         name: 'Whey Protein Kulfi Rabdi - 2kg',
-        brand: 'Speed',
-        shortDescription: 'Speed Whey Protein Kulfi Rabdi 2kg is a premium blend crafted for fitness enthusiasts, athletes, and anyone seeking faster recovery and improved performance.',
-        price: '₹ 6,204/-',
-        oldPrice: '₹ 8,499/-',
+        brand: 'Nutradyne',
+        shortDescription: 'Nutradyne Whey Protein Kulfi Rabdi 2kg is a premium blend crafted for fitness enthusiasts, athletes, and anyone seeking faster recovery and improved performance.',
+        price: '₹ 3999/-',
+        oldPrice: '₹ 5500/-',
         discount: '27% OFF',
         rating: 4.5,
         images: [
-            '/images/mawarabdi/01.jpg',
-            '/images/mawarabdi/02.jpg',
-            '/images/mawarabdi/03.jpg',
-            '/images/mawarabdi/04.jpg',
+            '/images/mawarabdi/1.webp',
+            '/images/mawarabdi/2.webp',
+            '/images/mawarabdi/3.webp',
+            '/images/mawarabdi/4.webp',
         ],
         description: `
-            <h4 class="title">The true strength of Speed :</h4>
-            <p>Our premium formulation is designed to support fitness enthusiasts, athletes, and individuals seeking effective muscle recovery and overall wellness.</p>
-            <h4 class="title mt-4">Ingredients:</h4>
-            <p>This product contains a high-quality whey protein blend made from whey protein concentrate, whey protein isolate, and whey powder. It is enriched with mava kulfi flavour for a delightful taste, along with glutamine to support muscle repair and recovery. To enhance mixability and texture, soy lecithin (INS 322) and xanthan gum (INS 416) are included. Sucralose (INS 956) is used as a safe and calorie-free sweetener to provide a pleasant taste without adding sugar.</p>
-            <h4 class="title mt-4">Allergen Advice:</h4>
-            <p>This product contains lactose, a naturally occurring milk sugar. Individuals with lactose intolerance may experience discomfort, and therefore, it is not recommended for them. Please consult your healthcare provider if you are unsure about your tolerance.</p>
-            <h4 class="title mt-4">Taste Advice:</h4>
-            <p>For the best experience, mix the recommended serving with non-fat or skimmed milk. This ensures a thick, creamy, and delicious shake that can be enjoyed any time of the day. Depending on your calorie intake goals, you may also add nuts or other healthy ingredients to enhance flavor and nutrition.</p>
-            <h4 class="title mt-4">Recommended Duration of Use:</h4>
-            <p>For visible and effective results, it is advised to use the product consistently for at least 30 days. Long-term usage can be continued as suggested by your nutritionist or healthcare professional, depending on your fitness and dietary requirements.</p>
-            <h4 class="title mt-4">Recommended Use:</h4>
-            <p>Consume two servings per day to meet your daily protein requirements. Each serving provides essential nutrients to support muscle growth, recovery, and energy levels throughout the day.</p>
-            <h4 class="title mt-4">Storage Instructions:</h4>
-            <p>Store the product at a temperature below 25°C in a cool, dry, and hygienic place. Ensure that it is kept away from direct sunlight, heat, and moisture. Always close the container tightly after use. Keep out of reach of children to avoid accidental consumption.</p>
-            <h4 class="title mt-4">Caution:</h4>
-            <p>Before using this product, it is important to consult a healthcare professional, especially if you are pregnant, suffering from liver-related conditions, or have been advised to follow a low-protein diet. Do not exceed the recommended daily usage to avoid health risks.</p>
-        `,
-        nutrition: [
-            { key: 'Energy (kcal)', value: '128.27' },
-            { key: 'Total Protein (g)', value: '25.00' },
-            { key: 'Carbohydrates (g)', value: '4.12' },
-            { key: 'Added Sugar (g)', value: '0' },
-            { key: 'Dietary Fibre (g)', value: '1.72' },
-            { key: 'Total Fat (g)', value: '1.17' },
-            { key: 'Saturated fatty acid (mg)', value: '0.66' },
-            { key: 'Polyunsaturated fatty acid (g)', value: '0.52' },
-            { key: 'Monounsaturated fatty acid (mg)', value: '1.54' },
-            { key: 'Trans Fatty Acid (g)', value: '0.04' },
-            { key: 'Cholesterol (g)', value: '0.01' },
-            { key: 'Potassium (mg)', value: '149.0' },
-            { key: 'Sodium (mg)', value: '120.0' },
-            { key: 'Essential Amino Acids (EAAs) (g)', value: '11.97' },
-            { key: 'Branched Chain Amino Acids (BCAAs) (g)', value: '6.11' },
-            { key: 'Semi-Essential Amino Acids (SEAAs) (g)', value: '4.03' },
-            { key: 'Non-Essential Amino Acids (NEAAs) (g)', value: '6.25' },
-        ]
-    },
-     {
-        id: 'peanut-butter',
-        name: 'Peanut Butter-1KG',
-        brand: 'Speed Nutrition',
-        shortDescription: 'Dark Chocolate Peanut Butter is a delicious and nutritious spread made from roasted peanuts blended with rich dark chocolate, sugar, and a pinch of salt.',
-        price: '₹ 629/-',
-        oldPrice: '₹ 699/-',
-        discount: '10% OFF',
-        rating: 4.5,
-        images: [
-            '/images/peanut-butter/01.jpg',
-            '/images/peanut-butter/02.jpg',
-            '/images/peanut-butter/03.jpg',
-            '/images/peanut-butter/04.jpg',
-        ],
-        description: `
-             <h4 class="title">Speed Nutrition Peanut Butter</h4>
-            <p>Indulge in the perfect balance of taste and nutrition with our premium Dark Chocolate Peanut Butter. Crafted from carefully roasted peanuts, blended with rich dark chocolate, a hint of sugar, and a touch of salt, this wholesome spread is designed to fuel your active lifestyle while satisfying your sweet cravings. Free from preservatives and gluten, it delivers both flavor and nourishment in every spoonful.</p>
-            <p>Packed with high-quality protein and dietary fiber, it supports muscle gain, aids recovery, and keeps you fuller for longer — making it an ideal snack for fitness enthusiasts, weight watchers, and anyone seeking a healthier alternative. Whether spread on toast, added to smoothies, or enjoyed straight from the jar, this peanut butter offers a delicious source of long-lasting energy.</p>
-            <h4 class="title">Instructions for Use:</h4>
-            <p>Store in a cool, dry place and refrigerate after opening to preserve freshness. Oil separation is a natural process and does not affect quality — simply stir well before use. Please do not consume if the seal is tampered.</p>
-            <h4 class="title">Ingredients:</h4>
-            <p>Roasted Peanuts, Sugar, Salt, Dark Chocolate {Cocoa Solids, Sugar, Cocoa Butter, Emulsifier (INS322)}, Stabilizer (INS471).</p>
-            <h4 class="title mt-4">Allergen Information:</h4>
-            <ul>
-                <li class="mb-2">High Energy for Endurance.</li>
-                <li class="mb-2">High in Protein & Dietary Fiber.</li>
-                <li class="mb-2">Gluten-Free.</li>
-                <li class="mb-2">Ideal for High-Protein Diets & Muscle Gain.</li>
-                <li class="mb-2">100% Natural - No Preservatives.</li>
+            <h4 class="title">NUTRADYNE HEALTHCARE WHEY PROTEIN</h4>
+            <p>Nutradyne Healthcare Whey Protein gives an immediate spike of amino acids in blood for immediate recovery after workout or when your body requires amino acids immediately.</p>
+            <p>This Unique Whey Protein Concentrate Helps Bodybuilders, Athletes or Any Sportsperson With Better Recovery of Muscles. The Specifications of This Product Adhere to the Most Stringent International Standards and Regulatory Norms.</p>
+            <p>It is a unique blend of 5 Specific Enzymes, Viz. -amylase (Starch Hydrolyzing Enzyme), Protease (protein Hydrolyzing Enzyme), Lipase (fat Hydrolyzing Enzyme), Cellulose (cellulose Hydrolyzing Enzyme), and Lactase (lactose Hydrolyzing Enzyme).</p>
+            
+            <h4 class="title mt-4">Important Information:</h4>
+            <ul class="mb-3">
+                <li class="mb-2">Product is not sold for medicinal use or parenteral use.</li>
+                <li class="mb-2">Pregnant, nursing or lactating women, infants, children, adolescents and elderly should consult a medical practitioner before use.</li>
+                <li class="mb-2">Take one serving a day or as directed by your health care practitioner/dietician.</li>
             </ul>
+
+            <h4 class="title mt-4">Allergen Information:</h4>
+            <p>Made in a facility that also processes soy, milk and nuts.</p>
+            <p>Not recommended for children. Not to exceed the recommended dosage.</p>
+
+            <h4 class="title mt-4">Directions For Use:</h4>
+            <p><strong>Serving Guide:</strong> Mix one level scoop (30g) with 200ml of water or milk (for the smoothest result, use a blender). We recommend 1-4 portions per day depending on your protein requirements. Take at any time of day to boost your total protein intake. If you mix with milk you add an extra 8g of protein, plus 85 calories.</p>
+
+            <h4 class="title mt-4">How to Use:</h4>
+            <ul class="mb-3">
+                <li class="mb-2"><strong>SHAKE:</strong> Pour Whey Protein 250-300 ml of liquid into a shaker cup. Secure the top and shake for 20-30 seconds.</li>
+                <li class="mb-2"><strong>STIR:</strong> Add 1 scoop of Whey Protein 250-300 ml of liquid to a glass and stir for 20-30 seconds until powder is completely dissolved.</li>
+                <li class="mb-2"><strong>BLEND:</strong> Add 1 scoop of Whey Protein 250-300 ml of liquid to a blender and mix add 1-2 ice cubes for a frosty shake.</li>
+                <li class="mb-2"><strong>PRE:</strong> Before training, Whey Protein is a great tasting and easy to digest source of time released amino acids.</li>
+                <li class="mb-2"><strong>POST:</strong> After a workout, Whey Protein is fast acting. It immediately starts repairing and building muscle.</li>
+            </ul>
+
+            <h4 class="title mt-4">Warning:</h4>
+            <p>Consult your Healthcare Professional prior to using this supplement if you have or suspect a medical condition, are taking prescription drugs or are pregnant or lactating. This product is not intended to diagnose, treat, cure or prevent any disease. Do not consume if you are allergic of any of the ingredients in this product label.</p>
         `,
         nutrition: [
-            { key: 'Energy (kcal)', value: '190' },
-            { key: 'Total Protein (g)', value: '6' },
-            { key: 'Carbohydrates (g)', value: '12' },
-            { key: 'Dietary Fiber (g)', value: '2' },
-            { key: 'Total Sugar (g)', value: '7' },
-            { key: 'Added Sugar (g)', value: '6' },
-            { key: 'Total Fat (g)', value: '13' },
-            { key: 'Saturated Fat (g)', value: '2' },
-            { key: 'Polyunsaturated Fat (g)', value: '4' },
-            { key: 'Monounsaturated Fat (g)', value: '7' },
-            { key: 'Trans Fat (g)', value: '0.0' },
-            { key: 'Cholesterol (mg)', value: '0.0' },
-            { key: 'Sodium (mg)', value: '49' },
+            { key: 'Energy (kcal)', value: '133.72' },
+            { key: 'Total Protein (g)', value: '24' },
+            { key: 'Carbohydrates (g)', value: '5.38' },
+            { key: 'Total Sugars (g)', value: '5.3' },
+            { key: 'Added Sugar (g)', value: '0' },
+            { key: 'Total Fat (g)', value: '1.8' },
+            { key: 'Saturated Fat (g)', value: '0.62' },
+            { key: 'Trans Fat (g)', value: '0' },
+            { key: 'Cholesterol (mg)', value: '28' },
+            { key: 'Sodium (mg)', value: '150' },
+            { key: 'Potassium (mg)', value: '230' },
+            { key: 'L-Aspartic Acid (mg)', value: '2470' },
+            { key: 'L-Leucine (mg)', value: '2750' },
+            { key: 'L-Lysine (mg)', value: '2360' },
+            { key: 'L-Threonine (mg)', value: '1680' },
+            { key: 'L-Isoleucine (mg)', value: '1480' },
+            { key: 'L-Tyrosine (mg)', value: '820' },
+            { key: 'L-Valine (mg)', value: '1480' },
+            { key: 'L-Methionine (mg)', value: '600' },
+            { key: 'L-Alanine (mg)', value: '1180' },
+            { key: 'L-Histidine (mg)', value: '430' },
+            { key: 'L-Phenylalanine (mg)', value: '860' },
+            { key: 'L-Tryptophan (mg)', value: '410' },
+            { key: 'L-Cysteine (mg)', value: '480' },
+            { key: 'L-Hydroxyproline (mg)', value: '850' },
+            { key: 'L-Arginine (mg)', value: '600' },
+            { key: 'L-Glutamic Acid (mg)', value: '3620' },
+            { key: 'L-Proline (mg)', value: '1320' },
+            { key: 'L-Glycine (mg)', value: '400' },
         ]
     },
+    //  {
+    //     id: 'peanut-butter',
+    //     name: 'Peanut Butter-1KG',
+    //     brand: 'Nutradyne Nutrition',
+    //     shortDescription: 'Dark Chocolate Peanut Butter is a delicious and nutritious spread made from roasted peanuts blended with rich dark chocolate, sugar, and a pinch of salt.',
+    //     price: '₹ 629/-',
+    //     oldPrice: '₹ 699/-',
+    //     discount: '10% OFF',
+    //     rating: 4.5,
+    //     images: [
+    //         '/images/peanut-butter/01.jpg',
+    //         '/images/peanut-butter/02.jpg',
+    //         '/images/peanut-butter/03.jpg',
+    //         '/images/peanut-butter/04.jpg',
+    //     ],
+    //     description: `
+    //          <h4 class="title">Nutradyne Nutrition Peanut Butter</h4>
+    //         <p>Indulge in the perfect balance of taste and nutrition with our premium Dark Chocolate Peanut Butter. Crafted from carefully roasted peanuts, blended with rich dark chocolate, a hint of sugar, and a touch of salt, this wholesome spread is designed to fuel your active lifestyle while satisfying your sweet cravings. Free from preservatives and gluten, it delivers both flavor and nourishment in every spoonful.</p>
+    //         <p>Packed with high-quality protein and dietary fiber, it supports muscle gain, aids recovery, and keeps you fuller for longer — making it an ideal snack for fitness enthusiasts, weight watchers, and anyone seeking a healthier alternative. Whether spread on toast, added to smoothies, or enjoyed straight from the jar, this peanut butter offers a delicious source of long-lasting energy.</p>
+    //         <h4 class="title">Instructions for Use:</h4>
+    //         <p>Store in a cool, dry place and refrigerate after opening to preserve freshness. Oil separation is a natural process and does not affect quality — simply stir well before use. Please do not consume if the seal is tampered.</p>
+    //         <h4 class="title">Ingredients:</h4>
+    //         <p>Roasted Peanuts, Sugar, Salt, Dark Chocolate {Cocoa Solids, Sugar, Cocoa Butter, Emulsifier (INS322)}, Stabilizer (INS471).</p>
+    //         <h4 class="title mt-4">Allergen Information:</h4>
+    //         <ul>
+    //             <li class="mb-2">High Energy for Endurance.</li>
+    //             <li class="mb-2">High in Protein & Dietary Fiber.</li>
+    //             <li class="mb-2">Gluten-Free.</li>
+    //             <li class="mb-2">Ideal for High-Protein Diets & Muscle Gain.</li>
+    //             <li class="mb-2">100% Natural - No Preservatives.</li>
+    //         </ul>
+    //     `,
+    //     nutrition: [
+    //         { key: 'Energy (kcal)', value: '190' },
+    //         { key: 'Total Protein (g)', value: '6' },
+    //         { key: 'Carbohydrates (g)', value: '12' },
+    //         { key: 'Dietary Fiber (g)', value: '2' },
+    //         { key: 'Total Sugar (g)', value: '7' },
+    //         { key: 'Added Sugar (g)', value: '6' },
+    //         { key: 'Total Fat (g)', value: '13' },
+    //         { key: 'Saturated Fat (g)', value: '2' },
+    //         { key: 'Polyunsaturated Fat (g)', value: '4' },
+    //         { key: 'Monounsaturated Fat (g)', value: '7' },
+    //         { key: 'Trans Fat (g)', value: '0.0' },
+    //         { key: 'Cholesterol (mg)', value: '0.0' },
+    //         { key: 'Sodium (mg)', value: '49' },
+    //     ]
+    // },
     // Placeholder for other products - using similar data to Mawa Rabdi but with different ID and Image
-    {
-        id: 'whey-protein-cold-coffee-2kg',
-        name: 'Whey Protein Cold Coffee-2kg',
-        brand: 'Speed',
-        shortDescription: 'Speed Whey Protein Cold Coffee 2kg is a premium blend crafted for fitness enthusiasts.',
-        price: '₹ 6,204/-',
-        oldPrice: '₹ 8,499/-',
-        discount: '27% OFF',
-        rating: 4.5,
-        images: [
-            '/images/coffee/01.jpg',
-            '/images/coffee/01.jpg', // Duplicate since we might not have 4 images for this one checking file system later
-             '/images/coffee/01.jpg',
-              '/images/coffee/01.jpg',
-        ],
-        description: `
-             <h4 class="title">The true strength of Speed (Cold Coffee Edition):</h4>
-            <p>Description similar to other whey protein...</p>
-        `,
-        nutrition: [
-            { key: 'Energy (kcal)', value: '128.27' },
-            { key: 'Total Protein (g)', value: '25.00' },
-        ]
-    },
+    // {
+    //     id: 'whey-protein-cold-coffee-2kg',
+    //     name: 'Whey Protein Cold Coffee-2kg',
+    //     brand: 'Nutradyne',
+    //     shortDescription: 'Nutradyne Whey Protein Cold Coffee 2kg is a premium blend crafted for fitness enthusiasts.',
+    //     price: '₹ 3999/-',
+    //     oldPrice: '₹ 5500/-',
+    //     discount: '27% OFF',
+    //     rating: 4.5,
+    //     images: [
+    //         '/images/coffee/01.jpg',
+    //         '/images/coffee/01.jpg', // Duplicate since we might not have 4 images for this one checking file system later
+    //          '/images/coffee/01.jpg',
+    //           '/images/coffee/01.jpg',
+    //     ],
+    //     description: `
+    //          <h4 class="title">The true strength of Nutradyne (Cold Coffee Edition):</h4>
+    //         <p>Description similar to other whey protein...</p>
+    //     `,
+    //     nutrition: [
+    //         { key: 'Energy (kcal)', value: '128.27' },
+    //         { key: 'Total Protein (g)', value: '25.00' },
+    //     ]
+    // },
     {
         id: 'whey-protein-milk-chocolate-2kg',
         name: 'Whey Protein Milk chocolate-2kg',
-        brand: 'Speed',
-        shortDescription: 'Speed Whey Protein Milk Chocolate 2kg is a premium blend crafted for fitness enthusiasts.',
-        price: '₹ 6,204/-',
-        oldPrice: '₹ 8,499/-',
+        brand: 'Nutradyne',
+        shortDescription: 'Nutradyne Whey Protein Milk Chocolate 2kg is a premium blend crafted for fitness enthusiasts, athletes, and anyone seeking faster recovery and improved performance.',
+        price: '₹ 3999/-',
+        oldPrice: '₹ 5500/-',
         discount: '27% OFF',
         rating: 4.5,
         images: [
-            '/images/chocolate/01.jpg',
-             '/images/chocolate/01.jpg',
-              '/images/chocolate/01.jpg',
-               '/images/chocolate/01.jpg',
+            '/images/chocolate/1.webp',
+             '/images/chocolate/2.webp',
+              '/images/chocolate/3.webp',
+               '/images/chocolate/4.webp',
         ],
         description: `
-             <h4 class="title">The true strength of Speed (Milk Chocolate Edition):</h4>
-            <p>Description similar to other whey protein...</p>
+            <h4 class="title">NUTRADYNE HEALTHCARE WHEY PROTEIN</h4>
+            <p>Nutradyne Healthcare Whey Protein gives an immediate spike of amino acids in blood for immediate recovery after workout or when your body requires amino acids immediately.</p>
+            <p>This Unique Whey Protein Concentrate Helps Bodybuilders, Athletes or Any Sportsperson With Better Recovery of Muscles. The Specifications of This Product Adhere to the Most Stringent International Standards and Regulatory Norms.</p>
+            <p>It is a unique blend of 5 Specific Enzymes, Viz. -amylase (Starch Hydrolyzing Enzyme), Protease (protein Hydrolyzing Enzyme), Lipase (fat Hydrolyzing Enzyme), Cellulose (cellulose Hydrolyzing Enzyme), and Lactase (lactose Hydrolyzing Enzyme).</p>
+            
+            <h4 class="title mt-4">Important Information:</h4>
+            <ul class="mb-3">
+                <li class="mb-2">Product is not sold for medicinal use or parenteral use.</li>
+                <li class="mb-2">Pregnant, nursing or lactating women, infants, children, adolescents and elderly should consult a medical practitioner before use.</li>
+                <li class="mb-2">Take one serving a day or as directed by your health care practitioner/dietician.</li>
+            </ul>
+
+            <h4 class="title mt-4">Allergen Information:</h4>
+            <p>Made in a facility that also processes soy, milk and nuts.</p>
+            <p>Not recommended for children. Not to exceed the recommended dosage.</p>
+
+            <h4 class="title mt-4">Directions For Use:</h4>
+            <p><strong>Serving Guide:</strong> Mix one level scoop (30g) with 200ml of water or milk (for the smoothest result, use a blender). We recommend 1-4 portions per day depending on your protein requirements. Take at any time of day to boost your total protein intake. If you mix with milk you add an extra 8g of protein, plus 85 calories.</p>
+
+            <h4 class="title mt-4">How to Use:</h4>
+            <ul class="mb-3">
+                <li class="mb-2"><strong>SHAKE:</strong> Pour Whey Protein 250-300 ml of liquid into a shaker cup. Secure the top and shake for 20-30 seconds.</li>
+                <li class="mb-2"><strong>STIR:</strong> Add 1 scoop of Whey Protein 250-300 ml of liquid to a glass and stir for 20-30 seconds until powder is completely dissolved.</li>
+                <li class="mb-2"><strong>BLEND:</strong> Add 1 scoop of Whey Protein 250-300 ml of liquid to a blender and mix add 1-2 ice cubes for a frosty shake.</li>
+                <li class="mb-2"><strong>PRE:</strong> Before training, Whey Protein is a great tasting and easy to digest source of time released amino acids.</li>
+                <li class="mb-2"><strong>POST:</strong> After a workout, Whey Protein is fast acting. It immediately starts repairing and building muscle.</li>
+            </ul>
+
+            <h4 class="title mt-4">Warning:</h4>
+            <p>Consult your Healthcare Professional prior to using this supplement if you have or suspect a medical condition, are taking prescription drugs or are pregnant or lactating. This product is not intended to diagnose, treat, cure or prevent any disease. Do not consume if you are allergic of any of the ingredients in this product label.</p>
         `,
         nutrition: [
-            { key: 'Energy (kcal)', value: '128.27' },
-            { key: 'Total Protein (g)', value: '25.00' },
+            { key: 'Energy (kcal)', value: '133.72' },
+            { key: 'Total Protein (g)', value: '24' },
+            { key: 'Carbohydrates (g)', value: '5.38' },
+            { key: 'Total Sugars (g)', value: '5.3' },
+            { key: 'Added Sugars (g)', value: '0' },
+            { key: 'Total Fat (g)', value: '1.8' },
+            { key: 'Saturated Fat (g)', value: '0.62' },
+            { key: 'Trans Fat (g)', value: '0' },
+            { key: 'Cholesterol (mg)', value: '28' },
+            { key: 'Sodium (mg)', value: '150' },
+            { key: 'Potassium (mg)', value: '230' },
+            { key: 'L-Aspartic Acid (mg)', value: '2470' },
+            { key: 'L-Leucine (mg)', value: '2750' },
+            { key: 'L-Lysine (mg)', value: '2360' },
+            { key: 'L-Threonine (mg)', value: '1590' },
+            { key: 'L-Isoleucine (mg)', value: '1480' },
+            { key: 'L-Tyrosine (mg)', value: '820' },
+            { key: 'L-Valine (mg)', value: '1480' },
+            { key: 'L-Methionine (mg)', value: '500' },
+            { key: 'L-Alanine (mg)', value: '1180' },
+            { key: 'L-Histidine (mg)', value: '430' },
+            { key: 'L-Phenylalanine (mg)', value: '860' },
+            { key: 'L-Tryptophan (mg)', value: '410' },
+            { key: 'L-Cysteine (mg)', value: '480' },
+            { key: 'L-Hydroxyproline (mg)', value: '450' },
+            { key: 'L-Arginine (mg)', value: '600' },
+            { key: 'L-Glutamic Acid (mg)', value: '3500' },
+            { key: 'L-Serine (mg)', value: '1180' },
+            { key: 'L-Proline (mg)', value: '1320' },
+            { key: 'L-Glycine (mg)', value: '400' },
         ]
     },
-    {
-        id: 'peanut-butter-500g',
-        name: 'Peanut Butter-500g',
-        brand: 'Speed Nutrition',
-        shortDescription: 'Dark Chocolate Peanut Butter is a delicious and nutritious spread.',
-        price: '₹ 449/-',
-        oldPrice: '₹ 499/-',
-        discount: '10% OFF',
-        rating: 4.5,
-        images: [
-            '/images/peanut-butter-500g/01.jpg',
-             '/images/peanut-butter-500g/01.jpg',
-              '/images/peanut-butter-500g/01.jpg',
-               '/images/peanut-butter-500g/01.jpg',
-        ],
-        description: `
-             <h4 class="title">Speed Nutrition Peanut Butter 500g</h4>
-            <p>Description...</p>
-        `,
-        nutrition: [
-            { key: 'Energy (kcal)', value: '190' },
-             { key: 'Total Protein (g)', value: '6' },
-        ]
-    },
+    // {
+    //     id: 'peanut-butter-500g',
+    //     name: 'Peanut Butter-500g',
+    //     brand: 'Nutradyne Nutrition',
+    //     shortDescription: 'Dark Chocolate Peanut Butter is a delicious and nutritious spread.',
+    //     price: '₹ 449/-',
+    //     oldPrice: '₹ 499/-',
+    //     discount: '10% OFF',
+    //     rating: 4.5,
+    //     images: [
+    //         '/images/peanut-butter-500g/01.jpg',
+    //          '/images/peanut-butter-500g/01.jpg',
+    //           '/images/peanut-butter-500g/01.jpg',
+    //            '/images/peanut-butter-500g/01.jpg',
+    //     ],
+    //     description: `
+    //          <h4 class="title">Nutradyne Nutrition Peanut Butter 500g</h4>
+    //         <p>Description...</p>
+    //     `,
+    //     nutrition: [
+    //         { key: 'Energy (kcal)', value: '190' },
+    //          { key: 'Total Protein (g)', value: '6' },
+    //     ]
+    // },
 ];
 
 export const getProductById = (id: string | undefined): Product | undefined => {

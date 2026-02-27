@@ -11,10 +11,10 @@ const Footer = () => {
                                 <div className="footer-widget">
                                     <div className="footer-about">
                                         <div className="footer-logo logo">
-                                            <Link to="/"><img src="/images/logo-01.png" alt="Logo" /></Link>
+                                            <Link to="/"><img src="/images/logo-01-white.png" alt="Logo" /></Link>
                                         </div>
                                         <div className="footer-text">
-                                            <p>Elevate your fitness journey with Speed's premium supplements for strength, muscle growth, and recovery.</p>
+                                            <p>Elevate your fitness journey with Nutradyne's premium supplements for strength, muscle growth, and recovery.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -24,7 +24,7 @@ const Footer = () => {
                                     <h4 className="fw-title">links</h4>
                                     <ul className="list-wrap ">
                                         <li><Link to="/" style={{ textDecoration: 'none' }}>Home</Link></li>
-                                        <li><Link to="/products" style={{ textDecoration: 'none' }}>Product</Link></li>
+                                        <li><a href="#product-showcase" style={{ textDecoration: 'none' }}>Product</a></li>
                                         <li><Link to="/about" style={{ textDecoration: 'none' }}>About Us</Link></li>
                                         <li><Link to="/contact" style={{ textDecoration: 'none' }}>Contact Us</Link></li>
                                     </ul>
@@ -45,7 +45,7 @@ const Footer = () => {
                                     <div className="footer-social">
                                         <a href="#" style={{ textDecoration: 'none' }}><i className="fab fa-facebook-f"></i></a>
                                         <a href="#" style={{ textDecoration: 'none' }}><i className="fab fa-instagram"></i></a>
-                                        <a href="https://api.whatsapp.com/send?phone=+919833897063&text=Hello, I want to know more about your service." style={{ textDecoration: 'none' }}><i className="fab fa-whatsapp"></i></a>
+                                        <a href="https://api.whatsapp.com/send?phone=+919511424676&text=Hello, I want to know more about your service." style={{ textDecoration: 'none' }}><i className="fab fa-whatsapp"></i></a>
                                     </div>
                                 </div>
                             </div>

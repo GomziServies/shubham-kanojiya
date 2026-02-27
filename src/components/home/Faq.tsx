@@ -11,8 +11,8 @@ const Faq = () => {
         {
             id: 'collapseOne',
             headingId: 'headingOne',
-            question: 'What makes Speed supplements different?',
-            answer: 'Speed uses scientifically-backed ingredients that enhance muscle growth, strength, and recovery. Our formulations are designed for maximum effectiveness and purity.'
+            question: 'What makes Nutradyne Healthcare supplements different?',
+            answer: 'Nutradyne Healthcare uses scientifically-backed ingredients that enhance muscle growth, strength, and recovery. Our formulations are designed for maximum effectiveness and purity.'
         },
         {
             id: 'collapseTwo',
@@ -23,13 +23,13 @@ const Faq = () => {
         {
             id: 'collapseThree',
             headingId: 'headingThree',
-            question: 'Are Speed supplements safe to use?',
+            question: 'Are Nutradyne Healthcare supplements safe to use?',
             answer: 'Yes, our products are crafted with high-quality, natural ingredients and undergo rigorous testing to ensure safety and effectiveness.'
         },
         {
             id: 'collapseFour',
             headingId: 'headingFour',
-            question: 'Can I take Speed supplements with my current routine?',
+            question: 'Can I take Nutradyne Healthcare supplements with my current routine?',
             answer: 'Absolutely! Our supplements are designed to complement any workout or fitness regimen and enhance overall performance.'
         },
         {
@@ -48,32 +48,55 @@ const Faq = () => {
                         <div className="section-title section-title-two white-title mb-5">
                             <h2 className="title text-center">Ask question</h2>
                         </div>
-                        <div className="accordion" id="accordionExample">
+                        <div className="accordion-custom">
                             {faqItems.map((item) => (
-                                <div className="accordion-item" key={item.id}>
-                                    <h2 className="accordion-header" id={item.headingId}>
-                                        <button 
-                                            className={`accordion-button ${activeId === item.id ? '' : 'collapsed'}`} 
-                                            type="button" 
-                                            onClick={() => toggleAccordion(item.id)}
-                                            aria-expanded={activeId === item.id} 
-                                            aria-controls={item.id}
-                                            style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}
-                                        >
-                                            {item.question}
-                                            <i className={`fas ${activeId === item.id ? 'fa-minus' : 'fa-plus'}`} style={{ marginLeft: '10px', fontSize: '14px' }}></i>
-                                        </button>
-                                    </h2>
-                                    <div 
-                                        id={item.id} 
-                                        className={`accordion-collapse collapse ${activeId === item.id ? 'show' : ''}`} 
-                                        aria-labelledby={item.headingId} 
-                                        data-bs-parent="#accordionExample"
+                                <div className="faq-item" key={item.id} style={{ marginBottom: '10px' }}>
+                                    <button 
+                                        className="faq-button"
+                                        onClick={() => toggleAccordion(item.id)}
+                                        style={{ 
+                                            width: '100%', 
+                                            display: 'flex', 
+                                            justifyContent: 'space-between', 
+                                            alignItems: 'center',
+                                            padding: '29px 45px',
+                                            backgroundColor: '#2a2a2a',
+                                            border: 'none',
+                                            color: 'white',
+                                            fontSize: '22px',
+                                            fontWeight: '500',
+                                            cursor: 'pointer',
+                                            borderRadius: activeId === item.id ? '10px 10px 0 0' : '10px',
+                                            transition: 'all 0.3s ease'
+                                        }}
                                     >
-                                        <div className="accordion-body">
-                                            <p>{item.answer}</p>
+                                        <span>{item.question}</span>
+                                        <i 
+                                            className={`fas ${activeId === item.id ? 'fa-minus' : 'fa-plus'}`} 
+                                            style={{ marginLeft: '10px', fontSize: '14px' }}
+                                        ></i>
+                                    </button>
+                                    {activeId === item.id && (
+                                        <div 
+                                            style={{ 
+                                                padding: '0 45px 38px 45px',
+                                                backgroundColor: '#2a2a2a',
+                                                borderBottomLeftRadius: '10px',
+                                                borderBottomRightRadius: '10px'
+                                            }}
+                                        >
+                                            <p style={{ 
+                                                color: '#ffffff', 
+                                                fontSize: '18px',
+                                                margin: '0',
+                                                position: 'relative',
+                                                paddingTop: '15px',
+                                                borderTop: '1px solid rgba(236, 237, 243, 0.17)'
+                                            }}>
+                                                {item.answer}
+                                            </p>
                                         </div>
-                                    </div>
+                                    )}
                                 </div>
                             ))}
                         </div>
