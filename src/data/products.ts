@@ -255,9 +255,9 @@ export const products: Product[] = [
         discount: '25% OFF',
         rating: 4.8,
         images: [
-            '/images/creatine-monohydrate/01.jfif',
-            '/images/creatine-monohydrate/02.jfif',
-            '/images/creatine-monohydrate/03.jfif',
+            '/images/creatine-monohydrate/01.jpg',
+            '/images/creatine-monohydrate/02.jpg',
+            '/images/creatine-monohydrate/03.jpg',
         ],
         description: `
             <h4 class="title">NUTRADYNE HEALTHCARE CREATINE MICRONIZED MONOHYDRATE</h4>
@@ -309,9 +309,9 @@ export const products: Product[] = [
         discount: '25% OFF',
         rating: 4.9,
         images: [
-            '/images/creatine-monohydrate/04.jfif',
-            '/images/creatine-monohydrate/05.jfif',
-            '/images/creatine-monohydrate/06.jfif',
+            '/images/creatine-monohydrate/04.jpg',
+            '/images/creatine-monohydrate/05.jpg',
+            '/images/creatine-monohydrate/06.jpg',
         ],
         description: `
             <h4 class="title">NUTRADYNE HEALTHCARE CREATINE MICRONIZED MONOHYDRATE</h4>
@@ -361,9 +361,9 @@ export const products: Product[] = [
         discount: '33% OFF',
         rating: 4.8,
         images: [
-            '/images/mass-gainer/01.jfif',
-            '/images/mass-gainer/02.jfif',
-            '/images/mass-gainer/03.jfif',
+            '/images/mass-gainer/01.jpg',
+            '/images/mass-gainer/02.jpg',
+            '/images/mass-gainer/03.jpg',
         ],
         description: `
             <h4 class="title">NUTRADYNE HEALTHCARE MASS GAINER</h4>
@@ -423,9 +423,9 @@ export const products: Product[] = [
         discount: '33% OFF',
         rating: 4.8,
         images: [
-            '/images/mass-gainer/04.jfif',
-            '/images/mass-gainer/05.jfif',
-            '/images/mass-gainer/06.jfif',
+            '/images/mass-gainer/04.jpg',
+            '/images/mass-gainer/05.jpg',
+            '/images/mass-gainer/06.jpg',
         ],
         description: `
             <h4 class="title">NUTRADYNE HEALTHCARE MASS GAINER</h4>
@@ -485,9 +485,9 @@ export const products: Product[] = [
         discount: '25% OFF',
         rating: 4.8,
         images: [
-            '/images/whey-protein/01.jfif',
-            '/images/whey-protein/02.jfif',
-            '/images/whey-protein/03.jfif',
+            '/images/whey-protein/01.jpg',
+            '/images/whey-protein/02.jpg',
+            '/images/whey-protein/03.jpg',
         ],
         description: `
             <h4 class="title">NUTRADYNE HEALTHCARE WHEY PROTEIN</h4>
