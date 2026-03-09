@@ -17,7 +17,7 @@ const ProductShowcase = () => {
                 <div className="tg-shop-wrapper">
                     <div className="row justify-content-center">
                         {products.map((product) => (
-                            <div className="col-lg-4 col-md-6 col-12" key={product.id}>
+                            <div className="col-lg-6 col-md-6 col-12" key={product.id}>
                                 <div className="tg-shop-item text-center">
                                     <div className="tg-shop-thumb">
                                         <Link to={`/products/${product.id}`}>

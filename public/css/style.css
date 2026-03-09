@@ -2602,14 +2602,28 @@ body.search-visible {
 }
 
 .product-desc-content .title {
-  font-size: 22px;
-  font-weight: 500;
-  margin-bottom: 17px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .product-desc-content p {
   font-size: 18px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.product-desc-content ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.product-desc-content ul li {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: var(--tg-body-font-color);
 }
 
 .product-desc-list {
