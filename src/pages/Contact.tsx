@@ -34,7 +34,7 @@ const Contact = () => {
                                     </div>
                                     <div className="contact-content">
                                         <h5 className="title">Address</h5>
-                                        <p className="contact-desc">Lucknow ,Uttar Pradesh</p>
+                                        <p className="contact-desc">Lucknow, Uttar Pradesh</p>
                                     </div>
                                 </div>
                             </div>

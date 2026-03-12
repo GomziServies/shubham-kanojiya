@@ -41,7 +41,7 @@ const Faq = () => {
     ];
 
     return (
-        <section className="faq-area position-relative py-20">
+        <section className="faq-area position-relative">
             <div className="row justify-content-end g-0">
                 <div className="col-12">
                     <div className="faq-wrapper-two">
@@ -59,6 +59,7 @@ const Faq = () => {
                                             display: 'flex', 
                                             justifyContent: 'space-between', 
                                             alignItems: 'center',
+                                            textAlign: 'left',
                                             padding: '29px 45px',
                                             backgroundColor: '#2a2a2a',
                                             border: 'none',
@@ -70,10 +71,10 @@ const Faq = () => {
                                             transition: 'all 0.3s ease'
                                         }}
                                     >
-                                        <span>{item.question}</span>
+                                        <span style={{ flex: 1, textAlign: 'left' }}>{item.question}</span>
                                         <i 
                                             className={`fas ${activeId === item.id ? 'fa-minus' : 'fa-plus'}`} 
-                                            style={{ marginLeft: '10px', fontSize: '14px' }}
+                                            style={{ marginLeft: '10px', fontSize: '14px', flexShrink: 0 }}
                                         ></i>
                                     </button>
                                     {activeId === item.id && (

@@ -1,6 +1,6 @@
 const Features = () => {
     return (
-        <section className="tg-features-area py-20">
+        <section className="tg-features-area py-20" style={{ paddingTop: '200px', }}>
             <div className="container">
                 <div className="tg-features-inner">
                     <div className="row justify-content-center">
